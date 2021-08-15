@@ -1,0 +1,19 @@
+.content-wrap {
+	display: flex;
+}
+.d-sidebar {
+	width: 85px;
+	background-color: black;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    padding: 80px;
+}
+
+.d-main {
+	flex-grow: 1;
+	height: 95vh;
+	overflow-y: auto;
+}
+
